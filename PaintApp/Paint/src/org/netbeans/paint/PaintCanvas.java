@@ -137,6 +137,10 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
 
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
