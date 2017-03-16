@@ -136,7 +136,7 @@ public class PaintCanvas extends JComponent {
 
         @Override
         public Dimension getPreferredSize() {
-            return new Dimension (24, 24);
+            return new Dimension (32, 32);
         }
     }
 
