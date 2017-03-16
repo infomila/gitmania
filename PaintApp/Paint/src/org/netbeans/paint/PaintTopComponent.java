@@ -231,7 +231,7 @@ public final class PaintTopComponent extends TopComponent implements ActionListe
     void writeProperties(java.util.Properties p) {
         // better to version settings since initial version as advocated at
         // http://wiki.apidesign.org/wiki/PropertyFiles
-        p.setProperty("version", "1.0");
+        p.setProperty("version", "2.0");
         // now store the color and size
         p.setProperty("color", "" + color.getColor().getRGB()); 
         p.setProperty("size", "" + brushSizeSlider.getValue());
