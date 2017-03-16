@@ -96,8 +96,10 @@ public class PaintCanvas extends JComponent {
         return brushView;
     }
 
+
+    
     public BufferedImage getImage() {
-        int width = Math.min(getWidth(), 1600);
+        int width = Math.min(getWidth(), 1900);
         int height = Math.min(getHeight(), 1200);
         if (backingImage == null || backingImage.getWidth() != width || backingImage.getHeight() != height) {
             int newWidth = backingImage == null ? width : Math.max(width, backingImage.getWidth());
