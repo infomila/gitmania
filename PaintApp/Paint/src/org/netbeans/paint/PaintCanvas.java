@@ -142,6 +142,10 @@ public class PaintCanvas extends JComponent {
         
     }
 
+    public void batamanta(){
+        
+    }
+        
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
         public void mouseClicked(MouseEvent e) {
