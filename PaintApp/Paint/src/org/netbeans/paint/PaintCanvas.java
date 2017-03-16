@@ -139,7 +139,7 @@ public class PaintCanvas extends JComponent {
     }
     
     public void chorrimangueraSupportFactory(){
-        
+        throw new ChorrimangueraException();
     }
 
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
