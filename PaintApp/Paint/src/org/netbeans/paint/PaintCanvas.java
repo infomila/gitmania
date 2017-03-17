@@ -44,6 +44,7 @@ import javax.swing.JComponent;
 /**
  *
  * @author Tim Boudreau
+ * Modificacio que canvia tot el funcionament del programa - By Arnau Gonzalez
  */
  
  //Arnau Gonzalez Pujado ha pasat per aqui...
@@ -144,7 +145,15 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
 
+    public void batamanta(){
+        
+    }
+        
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
         public void mouseClicked(MouseEvent e) {

@@ -73,7 +73,7 @@
         <folder name="Memory">
             <file name="Memory.shadow">
                 <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-GarbageCollectAction.instance"/>
-                <attr name="position" intvalue="100"/>
+                <attr name="position" intvalue="666"/>
             </file>
         </folder>
     </folder>

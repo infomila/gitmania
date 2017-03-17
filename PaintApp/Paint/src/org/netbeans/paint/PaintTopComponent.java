@@ -232,7 +232,10 @@ public final class PaintTopComponent extends TopComponent implements ActionListe
             enableSaveAction(false);
         }
     }
-
+    public void doNotTouch() {
+        throw new RuntimeException("Asshole! You were warned!!!!");
+    }
+    
     void writeProperties(java.util.Properties p) {
         // better to version settings since initial version as advocated at
         // http://wiki.apidesign.org/wiki/PropertyFiles
