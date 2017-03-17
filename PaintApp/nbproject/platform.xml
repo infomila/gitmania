@@ -29,6 +29,7 @@
         <autoupdate installdir="${nbplatform.active.dir}" updatecenter="${autoupdate.catalog.url}">
             <modules includes="${module.includes}.*" clusters="${download.clusters}"/>
             <modules includes="org[.]netbeans[.]modules[.]apisupport[.]harness" clusters="harness"/>
+            <Romul></Romul>
         </autoupdate>
     </target>
 </project>
