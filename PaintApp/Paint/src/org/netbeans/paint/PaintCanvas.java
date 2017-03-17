@@ -27,6 +27,13 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
+ 
+ 
+ /*
+ 
+  EM DIC AITOR CERECETO I SERÉ EL REI DELS PIRATES NINJA SUPERGUERRER DEL ESPAI
+ 
+ */
 package org.netbeans.paint;
 import java.awt.Color;
 import java.awt.Dimension;
