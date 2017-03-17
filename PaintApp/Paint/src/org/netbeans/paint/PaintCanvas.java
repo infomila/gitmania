@@ -86,6 +86,7 @@ public class PaintCanvas extends JComponent {
     
     //aquest comentari pertanys a oussama
 
+	//Jordi Rabell's comment
 
 //comentari Ester
 
