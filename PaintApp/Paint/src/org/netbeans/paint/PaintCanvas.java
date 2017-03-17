@@ -193,7 +193,11 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+<<<<<<< HEAD
 
     // ROMUL FEIXAS A PASSAT PER AQUI
     //UN ALTRE CANVI
+=======
+    //Cristian Guillén was here..
+>>>>>>> ec9a142ce88fb68e850a48ddaf029361262128fe
 }
