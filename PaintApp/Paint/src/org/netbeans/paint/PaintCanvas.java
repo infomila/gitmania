@@ -169,7 +169,7 @@ public class PaintCanvas extends JComponent {
 >>>>>>> origin/master
 
     public void batamanta(){
-        
+        // Toni Morales
     }
         
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
