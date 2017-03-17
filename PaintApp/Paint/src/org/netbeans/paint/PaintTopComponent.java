@@ -154,6 +154,11 @@ public final class PaintTopComponent extends TopComponent implements ActionListe
             });
         }
     }
+	
+	// Metode creat per Albert Aguilera
+	private void enableSaveAction() {
+		System.Out.Println("Funcionalitat máxima.");
+    }
 
     @Override
     public void stateChanged(ChangeEvent e) {

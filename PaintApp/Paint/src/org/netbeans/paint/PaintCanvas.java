@@ -45,6 +45,8 @@ import javax.swing.JComponent;
  *
  * @author Tim Boudreau
  */
+ 
+ //Arnau Gonzalez Pujado ha pasat per aqui...
 public class PaintCanvas extends JComponent {
     private int brushDiameter = 10;
     private final MouseL mouseListener = new MouseL();
@@ -63,9 +65,13 @@ public class PaintCanvas extends JComponent {
         setBackground(Color.WHITE);
         setFocusable(true);
     }
+<<<<<<< HEAD
     
     //aquest comentari pertanys a oussama
 
+=======
+//comentari Ester
+>>>>>>> fa141faeaecdd2d847f4323e07718b0c90aaae32
     public void setBrush(int diam) {
         this.brushDiameter = diam;
     }
@@ -144,10 +150,18 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+<<<<<<< HEAD
     
     public void chorrimangueraSupportFactory(){
         
     }
+=======
+	
+	// MadeInJordiMunozRuiz
+	private boolean hesuspes(){
+		return true;
+	}
+>>>>>>> fa141faeaecdd2d847f4323e07718b0c90aaae32
 
     public void batamanta(){
         
@@ -166,6 +180,8 @@ public class PaintCanvas extends JComponent {
             g.dispose();
             repaint(p.x - half, p.y - half, brushDiameter, brushDiameter);
         }
+        
+        //Cristian Lopez
 
         @Override
         public void mouseDragged(MouseEvent e) {
