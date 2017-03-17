@@ -45,6 +45,8 @@ import javax.swing.JComponent;
  *
  * @author Tim Boudreau
  */
+ 
+ //Arnau Gonzalez Pujado ha pasat per aqui...
 public class PaintCanvas extends JComponent {
     private int brushDiameter = 10;
     private final MouseL mouseListener = new MouseL();
