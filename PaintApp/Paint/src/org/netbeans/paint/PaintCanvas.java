@@ -51,6 +51,7 @@ public class PaintCanvas extends JComponent {
     private BufferedImage backingImage = null;
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
+    //oussama
 
     public PaintCanvas() {
         addMouseListener(mouseListener);
