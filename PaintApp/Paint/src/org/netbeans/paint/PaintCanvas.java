@@ -157,4 +157,5 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+    //Cristian Guillén was here
 }
