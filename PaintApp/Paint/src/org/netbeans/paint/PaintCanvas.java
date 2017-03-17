@@ -51,6 +51,8 @@ public class PaintCanvas extends JComponent {
     private BufferedImage backingImage = null;
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
+	//JordiMunozRuiz
+	private boolean maleitTemps = true;
 
     public PaintCanvas() {
         addMouseListener(mouseListener);
@@ -93,6 +95,7 @@ public class PaintCanvas extends JComponent {
     }
 
     JComponent getBrushSizeView() {
+		
         return brushView;
     }
 
@@ -143,6 +146,10 @@ public class PaintCanvas extends JComponent {
     }
 
     public void batamanta(){
+		//JordiMunozRuiz
+		int a = 5;
+		int b = 4;
+		int c = a+b;
         
     }
         
