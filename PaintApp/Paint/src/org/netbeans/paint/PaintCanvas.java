@@ -108,6 +108,9 @@ public class PaintCanvas extends JComponent {
         backingImage = null;
         repaint();
     }
+    public int MENDEZLOBATO(){
+    return 7; //Comentario hecho por ivan mendez
+    }
 
     @Override
     public void paint(Graphics g) {
