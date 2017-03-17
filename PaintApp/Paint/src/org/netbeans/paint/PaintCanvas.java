@@ -54,8 +54,17 @@ public class PaintCanvas extends JComponent {
     private BufferedImage backingImage = null;
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
     //oussama
+=======
+	//JordiMunozRuiz
+	private boolean maleitTemps = true;
+>>>>>>> devel_fx_munoz_jordi
 
 
 	// modificacion ihar sidliarevich
@@ -107,6 +116,7 @@ public class PaintCanvas extends JComponent {
     }
 
     JComponent getBrushSizeView() {
+		
         return brushView;
     }
 
@@ -154,16 +164,34 @@ public class PaintCanvas extends JComponent {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
     
     public void chorrimangueraSupportFactory(){
         
     }
 =======
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
 	
 	// MadeInJordiMunozRuiz
 	private boolean hesuspes(){
 		return true;
 	}
+<<<<<<< HEAD
+=======
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
+>>>>>>> devel_fx_munoz_jordi
+
+    public void batamanta(){
+		//JordiMunozRuiz
+		int a = 5;
+		int b = 4;
+		int c = a+b;
+        
+=======
 <<<<<<< HEAD
 >>>>>>> origin/master
 =======
@@ -172,6 +200,7 @@ public class PaintCanvas extends JComponent {
 
     public void batamanta(){
         // Toni Morales
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
     }
         
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
@@ -195,5 +224,11 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+<<<<<<< HEAD
+
+    // ROMUL FEIXAS A PASSAT PER AQUI
+    //UN ALTRE CANVI
+=======
     //Cristian Guillén was here..
+>>>>>>> ec9a142ce88fb68e850a48ddaf029361262128fe
 }
