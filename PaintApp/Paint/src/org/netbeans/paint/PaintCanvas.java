@@ -44,6 +44,7 @@ import javax.swing.JComponent;
 /**
  *
  * @author Tim Boudreau
+ * Modificacio que canvia tot el funcionament del programa - By Arnau Gonzalez
  */
  
  //Arnau Gonzalez Pujado ha pasat per aqui...
@@ -55,22 +56,32 @@ public class PaintCanvas extends JComponent {
     private Color color = Color.BLUE;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
     //oussama
 =======
 	//JordiMunozRuiz
 	private boolean maleitTemps = true;
 >>>>>>> devel_fx_munoz_jordi
 
-=======
+
 	// modificacion ihar sidliarevich
->>>>>>> 7fe7e86b95544b4fd6aa5fa439dc5942dadf181b
+
     public PaintCanvas() {
         addMouseListener(mouseListener);
         addMouseMotionListener(mouseListener);
         setBackground(Color.WHITE);
         setFocusable(true);
     }
+
+    
+    //aquest comentari pertanys a oussama
+
+
 //comentari Ester
+
     public void setBrush(int diam) {
         this.brushDiameter = diam;
     }
@@ -151,11 +162,20 @@ public class PaintCanvas extends JComponent {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
+=======
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
 	
 	// MadeInJordiMunozRuiz
 	private boolean hesuspes(){
 		return true;
 	}
+<<<<<<< HEAD
 =======
     
     public void chorrimangueraSupportFactory(){
@@ -169,6 +189,16 @@ public class PaintCanvas extends JComponent {
 		int b = 4;
 		int c = a+b;
         
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> fa141faeaecdd2d847f4323e07718b0c90aaae32
+>>>>>>> origin/master
+
+    public void batamanta(){
+        // Toni Morales
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
     }
         
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
@@ -192,4 +222,5 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+    //Cristian Guillén was here..
 }
