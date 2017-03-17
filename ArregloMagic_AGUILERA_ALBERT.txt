@@ -1,0 +1,2 @@
+Es vol una aplicació per descarregar imatges .jpg d'internet.
+Per fer-ho, visitareu una pàgina (fixe), i a partir d'ella agafareu totes les imatges que localitzeu. Us les descarregareu. Agafareu també les pàgines .htm i.html que trobeu i les visitareu buscant noves imatges. Això ho repetireu mentre us faltin imatges.
