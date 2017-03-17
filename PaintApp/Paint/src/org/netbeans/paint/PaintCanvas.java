@@ -145,6 +145,7 @@ public class PaintCanvas extends JComponent {
         }
     }
 	
+	// MadeInJordiMunozRuiz
 	private boolean hesuspes(){
 		return true;
 	}
