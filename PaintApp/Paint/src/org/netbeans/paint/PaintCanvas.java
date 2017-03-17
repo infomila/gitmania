@@ -167,4 +167,5 @@ public class PaintCanvas extends JComponent {
     }
 
     // ROMUL FEIXAS A PASSAT PER AQUI
+    //UN ALTRE CANVI
 }
