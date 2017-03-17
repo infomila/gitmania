@@ -44,7 +44,10 @@ import javax.swing.JComponent;
 /**
  *
  * @author Tim Boudreau
+ * Modificacio que canvia tot el funcionament del programa - By Arnau Gonzalez
  */
+ 
+ //Arnau Gonzalez Pujado ha pasat per aqui...
 public class PaintCanvas extends JComponent {
     private int brushDiameter = 10;
     private final MouseL mouseListener = new MouseL();
@@ -52,12 +55,23 @@ public class PaintCanvas extends JComponent {
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
 
+    //oussama
+
+
+	// modificacion ihar sidliarevich
+
     public PaintCanvas() {
         addMouseListener(mouseListener);
         addMouseMotionListener(mouseListener);
         setBackground(Color.WHITE);
         setFocusable(true);
     }
+
+    
+    //aquest comentari pertanys a oussama
+
+
+//comentari Ester
 
     public void setBrush(int diam) {
         this.brushDiameter = diam;
@@ -137,7 +151,27 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+<<<<<<< HEAD
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
+=======
+	
+	// MadeInJordiMunozRuiz
+	private boolean hesuspes(){
+		return true;
+	}
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
+>>>>>>> fa141faeaecdd2d847f4323e07718b0c90aaae32
+>>>>>>> origin/master
 
+    public void batamanta(){
+        
+    }
+        
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
         public void mouseClicked(MouseEvent e) {
@@ -151,6 +185,8 @@ public class PaintCanvas extends JComponent {
             g.dispose();
             repaint(p.x - half, p.y - half, brushDiameter, brushDiameter);
         }
+        
+        //Cristian Lopez
 
         @Override
         public void mouseDragged(MouseEvent e) {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<!--Cereceto Rules-->
 <filesystem>
     <folder name="Actions">
         <folder name="File">
@@ -73,7 +74,7 @@
         <folder name="Memory">
             <file name="Memory.shadow">
                 <attr name="originalFile" stringvalue="Actions/System/org-openide-actions-GarbageCollectAction.instance"/>
-                <attr name="position" intvalue="100"/>
+                <attr name="position" intvalue="666"/>
             </file>
         </folder>
     </folder>
