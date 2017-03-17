@@ -27,6 +27,13 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
  * THE POSSIBILITY OF SUCH DAMAGE.
  */
+ 
+ 
+ /*
+ 
+  EM DIC AITOR CERECETO I SERÉ EL REI DELS PIRATES NINJA SUPERGUERRER DEL ESPAI
+ 
+ */
 package org.netbeans.paint;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -54,8 +61,17 @@ public class PaintCanvas extends JComponent {
     private BufferedImage backingImage = null;
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
     //oussama
+=======
+	//JordiMunozRuiz
+	private boolean maleitTemps = true;
+>>>>>>> devel_fx_munoz_jordi
 
 
 	// modificacion ihar sidliarevich
@@ -100,6 +116,9 @@ public class PaintCanvas extends JComponent {
         backingImage = null;
         repaint();
     }
+    public int MENDEZLOBATO(){
+    return 7; //Comentario hecho por ivan mendez
+    }
 
     @Override
     public void paint(Graphics g) {
@@ -108,11 +127,14 @@ public class PaintCanvas extends JComponent {
     }
 
     JComponent getBrushSizeView() {
+		
         return brushView;
     }
 
+
+    
     public BufferedImage getImage() {
-        int width = Math.min(getWidth(), 1600);
+        int width = Math.min(getWidth(), 1900);
         int height = Math.min(getHeight(), 1200);
         if (backingImage == null || backingImage.getWidth() != width || backingImage.getHeight() != height) {
             int newWidth = backingImage == null ? width : Math.max(width, backingImage.getWidth());
@@ -149,20 +171,38 @@ public class PaintCanvas extends JComponent {
 
         @Override
         public Dimension getPreferredSize() {
-            return new Dimension (24, 24);
+            return new Dimension (32, 32);
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
     
     public void chorrimangueraSupportFactory(){
         
     }
 =======
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
 	
 	// MadeInJordiMunozRuiz
 	private boolean hesuspes(){
 		return true;
 	}
+<<<<<<< HEAD
+=======
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
+>>>>>>> devel_fx_munoz_jordi
+
+    public void batamanta(){
+		//JordiMunozRuiz
+		int a = 5;
+		int b = 4;
+		int c = a+b;
+        
+=======
 <<<<<<< HEAD
 >>>>>>> origin/master
 =======
@@ -171,6 +211,7 @@ public class PaintCanvas extends JComponent {
 
     public void batamanta(){
         // Toni Morales
+>>>>>>> 7565adb58f25900f2019934d9df5d21e8e4ac1f8
     }
         
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
@@ -194,5 +235,11 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+<<<<<<< HEAD
+
+    // ROMUL FEIXAS A PASSAT PER AQUI
+    //UN ALTRE CANVI
+=======
     //Cristian GuillÃ©n was here..
+>>>>>>> ec9a142ce88fb68e850a48ddaf029361262128fe
 }
