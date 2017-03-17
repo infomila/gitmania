@@ -193,4 +193,7 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+
+    // ROMUL FEIXAS A PASSAT PER AQUI
+    //UN ALTRE CANVI
 }
