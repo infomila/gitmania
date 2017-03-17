@@ -58,6 +58,8 @@ public class PaintCanvas extends JComponent {
         setBackground(Color.WHITE);
         setFocusable(true);
     }
+    
+    //aquest comentari pertanys a oussama
 
     public void setBrush(int diam) {
         this.brushDiameter = diam;
