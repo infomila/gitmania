@@ -44,6 +44,7 @@ import javax.swing.JComponent;
 /**
  *
  * @author Tim Boudreau
+ * Modificacio que canvia tot el funcionament del programa - By Arnau Gonzalez
  */
  
  //Arnau Gonzalez Pujado ha pasat per aqui...
@@ -53,25 +54,25 @@ public class PaintCanvas extends JComponent {
     private BufferedImage backingImage = null;
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
-<<<<<<< HEAD
+
     //oussama
 
-=======
+
 	// modificacion ihar sidliarevich
->>>>>>> 7fe7e86b95544b4fd6aa5fa439dc5942dadf181b
+
     public PaintCanvas() {
         addMouseListener(mouseListener);
         addMouseMotionListener(mouseListener);
         setBackground(Color.WHITE);
         setFocusable(true);
     }
-<<<<<<< HEAD
+
     
     //aquest comentari pertanys a oussama
 
-=======
+
 //comentari Ester
->>>>>>> fa141faeaecdd2d847f4323e07718b0c90aaae32
+
     public void setBrush(int diam) {
         this.brushDiameter = diam;
     }
@@ -161,7 +162,11 @@ public class PaintCanvas extends JComponent {
 	private boolean hesuspes(){
 		return true;
 	}
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> fa141faeaecdd2d847f4323e07718b0c90aaae32
+>>>>>>> origin/master
 
     public void batamanta(){
         
@@ -188,4 +193,5 @@ public class PaintCanvas extends JComponent {
             mouseClicked(e);
         }
     }
+    //Cristian Guillén was here..
 }
