@@ -63,6 +63,8 @@ public class PaintCanvas extends JComponent {
         setBackground(Color.WHITE);
         setFocusable(true);
     }
+    
+    //aquest comentari pertanys a oussama
 
     public void setBrush(int diam) {
         this.brushDiameter = diam;
@@ -142,7 +144,15 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
 
+    public void batamanta(){
+        
+    }
+        
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
         public void mouseClicked(MouseEvent e) {
