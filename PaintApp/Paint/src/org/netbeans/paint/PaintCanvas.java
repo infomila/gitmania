@@ -137,6 +137,10 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+	
+	private boolean hesuspes(){
+		return true;
+	}
 
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
