@@ -46,6 +46,7 @@ import javax.swing.JComponent;
  * @author Tim Boudreau
  */
 public class PaintCanvas extends JComponent {
+	//modificaciones sobre una nueva branca, ihar Sidliarevich
     private int brushDiameter = 10;
     private final MouseL mouseListener = new MouseL();
     private BufferedImage backingImage = null;
