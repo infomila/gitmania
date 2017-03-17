@@ -65,7 +65,7 @@ public class PaintCanvas extends JComponent {
         setBackground(Color.WHITE);
         setFocusable(true);
     }
-
+//comentari Ester
     public void setBrush(int diam) {
         this.brushDiameter = diam;
     }
@@ -163,6 +163,8 @@ public class PaintCanvas extends JComponent {
             g.dispose();
             repaint(p.x - half, p.y - half, brushDiameter, brushDiameter);
         }
+        
+        //Cristian Lopez
 
         @Override
         public void mouseDragged(MouseEvent e) {
