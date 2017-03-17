@@ -86,6 +86,7 @@ public class PaintCanvas extends JComponent {
     
     //aquest comentari pertanys a oussama
 
+	//Jordi Rabell's comment
 
 //comentari Ester
 
@@ -114,6 +115,9 @@ public class PaintCanvas extends JComponent {
     public void clear() {
         backingImage = null;
         repaint();
+    }
+    public int MENDEZLOBATO(){
+    return 7; //Comentario hecho por ivan mendez
     }
 
     @Override
