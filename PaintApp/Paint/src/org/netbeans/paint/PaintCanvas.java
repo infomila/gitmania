@@ -44,6 +44,7 @@ import javax.swing.JComponent;
 /**
  *
  * @author Tim Boudreau
+ * Modificacio que canvia tot el funcionament del programa - By Arnau Gonzalez
  */
 public class PaintCanvas extends JComponent {
     private int brushDiameter = 10;
