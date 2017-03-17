@@ -54,7 +54,12 @@ public class PaintCanvas extends JComponent {
     private final BrushSizeView brushView = new BrushSizeView();
     private Color color = Color.BLUE;
 <<<<<<< HEAD
+<<<<<<< HEAD
     //oussama
+=======
+	//JordiMunozRuiz
+	private boolean maleitTemps = true;
+>>>>>>> devel_fx_munoz_jordi
 
 =======
 	// modificacion ihar sidliarevich
@@ -100,6 +105,7 @@ public class PaintCanvas extends JComponent {
     }
 
     JComponent getBrushSizeView() {
+		
         return brushView;
     }
 
@@ -144,12 +150,27 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+<<<<<<< HEAD
 	
 	// MadeInJordiMunozRuiz
 	private boolean hesuspes(){
 		return true;
 	}
+=======
+    
+    public void chorrimangueraSupportFactory(){
+        
+    }
+>>>>>>> devel_fx_munoz_jordi
 
+    public void batamanta(){
+		//JordiMunozRuiz
+		int a = 5;
+		int b = 4;
+		int c = a+b;
+        
+    }
+        
     private final class MouseL extends MouseAdapter implements MouseMotionListener {
         @Override
         public void mouseClicked(MouseEvent e) {
