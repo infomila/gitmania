@@ -5,4 +5,5 @@
 <project name="PaintApp" basedir=".">
     <description>Builds the module suite PaintApp.</description>
     <import file="nbproject/build-impl.xml"/>
+    <!-- Comentari Cristian Guillen -->
 </project>
