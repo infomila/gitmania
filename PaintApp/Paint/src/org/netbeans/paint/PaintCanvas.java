@@ -62,6 +62,9 @@ public class PaintCanvas extends JComponent {
     public void setBrush(int diam) {
         this.brushDiameter = diam;
     }
+    public int Ejercicio5IvanMendez(){
+      return 5;  //Ejercicio 5 b)
+    }
 
     public void setBrushDiameter(int val) {
         this.brushDiameter = val;
