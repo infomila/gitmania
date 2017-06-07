@@ -137,6 +137,7 @@ public class PaintCanvas extends JComponent {
             return new Dimension (24, 24);
         }
     }
+	//HOLAAAAAA CRISTIAN LOPEZ
     
     public void chorrimangueraSupportFactory(){
         
