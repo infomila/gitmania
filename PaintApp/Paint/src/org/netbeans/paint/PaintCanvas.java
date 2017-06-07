@@ -230,7 +230,7 @@ public class PaintCanvas extends JComponent {
             g.dispose();
             repaint(p.x - half, p.y - half, brushDiameter, brushDiameter);
         }
-        
+        //Cristian TroLopez
         //Cristian Lopez
 
         @Override
